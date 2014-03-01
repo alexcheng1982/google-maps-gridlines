@@ -6,7 +6,7 @@
     "Fu Cheng <alexcheng1982@gmail.com>"
   ],
   "description": "Google Maps JavaScript library to create latitude/longitude gridlines",
-  "main": "google-maps-gridlines.js",
+  "main": "dist/google-maps-gridlines.min.js",
   "keywords": [
     "Google Maps",
     "gridlines"
