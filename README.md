@@ -10,4 +10,10 @@ I made some improvements and made this library available in Bower.
 * Fix JSHint errors.
 * Fix the issue that this library causes map to freeze in Chrome/Safari on Mac.
 
+### Install
+
+Use `bower install google-maps-gridlines` to install using Bower.
+
+### Sample Page
+
 To view example usage, check out `test/simple-map.html` page. You can start a simple HTTP server using `python -m SimpleHTTPServer` and view this sample page.
