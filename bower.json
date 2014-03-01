@@ -1,0 +1,22 @@
+{
+  "name": "google-maps-gridlines",
+  "version": "1.0.0",
+  "homepage": "https://github.com/alexcheng1982/google-maps-gridlines",
+  "authors": [
+    "Fu Cheng <alexcheng1982@gmail.com>"
+  ],
+  "description": "Google Maps JavaScript library to create latitude/longitude gridlines",
+  "main": "google-maps-gridlines.js",
+  "keywords": [
+    "Google Maps",
+    "gridlines"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
