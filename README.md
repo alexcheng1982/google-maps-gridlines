@@ -14,6 +14,20 @@ I made some improvements and made this library available in Bower.
 
 Use `bower install google-maps-gridlines` to install using Bower.
 
+
+### How to use
+
+To show gridlines on Google map, use code like this
+
+```
+var mapOptions = {
+	center: new google.maps.LatLng(-42, 174),
+	zoom: 5
+};
+var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+var gridlines = new Graticule(map);
+```
+
 ### Sample Page
 
 To view example usage, check out `test/simple-map.html` page. You can start a simple HTTP server using `python -m SimpleHTTPServer` and view this sample page.
