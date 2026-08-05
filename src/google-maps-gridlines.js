@@ -31,7 +31,7 @@ var Graticule = (function() {
     };
   _.prototype.decToSex = function(d) {
       var degs = Math.floor(d);
-      var mins = ((Math.abs(d) - degs) * 60.0).toFixed(2);
+      var mins = ((Math.abs(d - degs)) * 60.0).toFixed(2);
       if (mins === "60.00") { degs += 1.0; mins = "0.00"; }
       return [degs, ":", mins].join('');
   };
